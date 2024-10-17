@@ -1,0 +1,9 @@
+{
+  "name": "insta-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts" : {
+     "build" : "yarn clean && mkdir dist && cp -a ig_follower.html ./dist/index.html",
+     "clean" : "rm -rf dist"
+  }
+}
